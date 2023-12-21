@@ -1,10 +1,9 @@
-import React, { useState, useEffect, useRef, useContext } from "react";
+import React, { useState, useEffect, useRef} from "react";
 import { TextArea } from "../TextArea";
 import { CodeHighlighter } from "../CodeHighlighter";
 import { Selector } from "../Select";
 import { PrismTheme, themes } from "prism-react-renderer";
 import { initialCode, LanguageOptions, themeOptions } from "../../utils";
-import { LiveProvider, withLive, LiveError, LivePreview } from "react-live";
 import "./index.css";
 import { CodePreview } from "../CodePreview";
 
@@ -17,8 +16,8 @@ export function CodeEditor() {
     msg: "Yay! Code compiled Successfully.",
   });
 
-  const textAreaRef = useRef(null);
-  const preRef = useRef(null);
+   const textAreaRef = useRef<HTMLTextAreaElement | null>(null);
+   const preRef = useRef<HTMLPreElement | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {

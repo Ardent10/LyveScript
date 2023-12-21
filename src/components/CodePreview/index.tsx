@@ -29,7 +29,9 @@ export function CodePreview({
 
   
     const observer = new MutationObserver(() => handleErrorCheck());
-    observer.observe(livePreviewContainerRef?.current, { childList: true });
+     if (livePreviewContainerRef.current) {
+       observer.observe(livePreviewContainerRef.current, { childList: true });
+     }
 
     return () => {
       observer.disconnect();
