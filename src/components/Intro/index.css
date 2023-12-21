@@ -1,0 +1,22 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+.desc {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  font-size: 12px;
+  margin-left: auto;
+}
+p {
+  width: 40%;
+}

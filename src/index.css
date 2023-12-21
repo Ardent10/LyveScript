@@ -1,0 +1,45 @@
+:root {
+  font-family: "Fira Code", monospace;
+  --background: #a5a5a5;
+  --text: #ffffff;
+  --border: #2d2d2d;
+
+  --keyword: #d73a49;
+  --variable: #e36209;
+  --string: #98c379;
+  --number: #d35400;
+  --operator: #0184bc;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  margin: 0;
+}
+
+*::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #4f4f4f;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #4f4f4f;
+  border-radius: 100vw;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: var(--background);
+  border-radius: 100vw;
+}
+
+*::-webkit-scrollbar-track-piece {
+  background-color: var(--chakra-colors-whiteAlpha-900);
+}
+
+*::-webkit-scrollbar-corner {
+  background-color: var(--background);
+}

@@ -1,0 +1,15 @@
+.selector {
+  border: none;
+}
+
+.select {
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+option {
+  padding: 5px;
+  font-size: 16px;
+}

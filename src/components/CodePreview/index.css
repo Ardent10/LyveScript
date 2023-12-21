@@ -1,0 +1,15 @@
+.live-preview-container {
+  position: relative;
+  padding: 2rem 4rem;
+  background-color: #ffffff;
+  margin-left: 1rem;
+  border-radius: 15px;
+  width: 20vw;
+  overflow: auto;
+}
+
+.error {
+  display: block;
+  color: #ff0400;
+  height: 100%;
+}

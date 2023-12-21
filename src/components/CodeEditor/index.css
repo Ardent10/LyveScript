@@ -1,0 +1,29 @@
+.code-editor-container {
+  position: relative;
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.editor-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.selector-container {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+}
+
+.connection {
+  padding: 2rem;
+}
+
+.success-failure-img {
+  width: 6rem;
+}

@@ -1,0 +1,28 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  padding: 25px 0 0;
+  color: var(--text);
+}
+
+.title-bold {
+  color: #4caf50;
+  font-weight: 600;
+}
+
+.title-light{
+    color: #f44336;
+    font-weight: 500;
+}
+
+.logo {
+  height: 80px;
+}
+
+.navbar-title {
+  font-size: 24px;
+  margin-left: 10px;
+  display: flex;
+}
